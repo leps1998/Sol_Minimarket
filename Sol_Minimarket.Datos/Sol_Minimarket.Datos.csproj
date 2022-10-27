@@ -43,5 +43,11 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sol_Minimarket.Entidades\Sol_Minimarket.Entidades.csproj">
+      <Project>{e91910d8-ef74-46e5-919c-ea4544a9893a}</Project>
+      <Name>Sol_Minimarket.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
